@@ -1,0 +1,17 @@
+{
+  "name": "ShareWatchParty",
+  "manifest_version": 3,
+  "description": "Amazon Watch Party Share Chrome Extension",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "clipboardWrite",
+    "clipboardRead"
+  ],
+  "background": {
+      "service_worker": "content.js"
+  },
+  "action": {}
+}
